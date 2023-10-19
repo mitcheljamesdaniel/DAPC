@@ -1,0 +1,9 @@
+dapc_and_heatmaps.png
+.Rhistory
+.Rprofile
+lib/
+lib-ext/
+lib-R/
+src/
+packrat/lib*/
+.Rproj.user
