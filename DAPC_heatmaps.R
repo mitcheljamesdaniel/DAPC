@@ -169,6 +169,7 @@ dapc_fig <- ggplot(plot_dd, aes(LD1, LD2, colour = IF_line)) +
 
 
 ############# Create and save combined DAPC and heatmaps figure ##############
+
 empty <- ggplot() + theme_void()
 
 png("dapc_and_heatmaps.png", width = 40, height = 20, units = "cm", res = 400)
