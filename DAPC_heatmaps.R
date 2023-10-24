@@ -1,9 +1,16 @@
 
 ###### Setup (load packages and read in data) ########################
 
-#create vector of package names, then apply library function to each name
-lib <- c("adegenet","ggplot2", "cowplot", "factoextra", "readr", "tidyr", "stringr", "data.table", "dplyr")
-lapply(lib, library, character.only = T)
+#load all relevant packages
+library(adegenet)
+library(ggplot2)
+library(cowplot)
+library(factoextra)
+library(readr)
+library(tidyr)
+library(stringr)
+library(data.table)
+library(dplyr)
 
 #read in color data, in format produced by Colormesh
 guppy_color_measurements <- read.csv("guppy_color_measurements.csv")
